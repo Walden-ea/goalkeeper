@@ -1,24 +1,28 @@
 # Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+goalkeeper-frontend/logs
+goalkeeper-frontend/*.log
+goalkeeper-frontend/npm-debug.log*
+goalkeeper-frontend/yarn-debug.log*
+goalkeeper-frontend/yarn-error.log*
+goalkeeper-frontend/pnpm-debug.log*
+goalkeeper-frontend/lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+*/node_modules
+goalkeeper-frontend/dist
+goalkeeper-frontend/dist-ssr
+goalkeeper-frontend/*.local
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+goalkeeper-frontend/.vscode/*
+goalkeeper-frontend/!.vscode/extensions.json
+goalkeeper-frontend/.idea
+goalkeeper-frontend/.DS_Store
+goalkeeper-frontend/*.suo
+goalkeeper-frontend/*.ntvs*
+goalkeeper-frontend/*.njsproj
+goalkeeper-frontend/*.sln
+goalkeeper-frontend/*.sw?
+
+goalkeeper-backend/tasks.json
+
+.vscode
